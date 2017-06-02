@@ -11,7 +11,7 @@ app.get('/', function (req, res) {
 app.post('/api/products/debug', function(req, res) {
 	console.log("made it here");
 	console.log(req.body);
-  res.sendStatus(503)
+  res.sendStatus(200)
 	//res.send(req.body);
 });
 
